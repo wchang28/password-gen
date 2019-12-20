@@ -1,0 +1,21 @@
+{
+  "name": "password-gen",
+  "version": "1.0.0",
+  "description": "Generate Password and Hash",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/password-gen.git"
+  },
+  "keywords": [
+    "hash"
+  ],
+  "author": "Wen Chang",
+  "license": "MIT",
+  "dependencies": {
+    "sha512": "0.0.1"
+  }
+}
