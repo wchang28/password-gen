@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Generate Password and Hash",
   "main": "app.js",
+  "bin": {
+    "password-gen": "app.js"
+  },
   "scripts": {
     "start": "node ./app.js"
   },
