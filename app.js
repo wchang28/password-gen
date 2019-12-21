@@ -32,4 +32,3 @@ function password(length, special) {
 let pswd = password(10);
 console.log('password ==>\n' + pswd);
 console.log('password hash ==>\n' + sha512HashHex(pswd));
-
